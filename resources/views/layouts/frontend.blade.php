@@ -15,32 +15,32 @@
 
         .fs-1-rem{
             font-size: 1rem !important;
-            transition: 0.4s;
+            transition: 0.8s;
         }
 
         .fs-2-5-rem{
             font-size: 2.5rem !important;
-            transition: 0.4s;
+            transition: 0.8s;
         }
 
         .w-3-rem{
             width: 3rem !important;
-            transition: 0.4s;
+            transition: 0.8s;
         }
 
         .w-5-rem{
             width: 3rem !important;
-            transition: 0.4s;
+            transition: 0.8s;
         }
 
         .w-15-rem{
             width: 15rem !important;
-            transition: 0.4s;
+            transition: 0.8s;
         }
 
         .drop-shadow{
             box-shadow: 0 -1px 10px #333;
-            transition: 0.4s;
+            transition: 0.8s;
         }
 
         .header-extra-space{
