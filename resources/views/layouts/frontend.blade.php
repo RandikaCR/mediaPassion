@@ -15,64 +15,83 @@
 
         .fs-1-rem{
             font-size: 1rem !important;
+            transition: 0.4s;
         }
 
-        .fs-3-rem{
-            font-size: 1rem !important;
+        .fs-2-5-rem{
+            font-size: 2.5rem !important;
+            transition: 0.4s;
         }
 
         .w-3-rem{
             width: 3rem !important;
+            transition: 0.4s;
         }
 
         .w-5-rem{
             width: 3rem !important;
+            transition: 0.4s;
         }
 
         .w-15-rem{
             width: 15rem !important;
+            transition: 0.4s;
         }
 
-        .img-grayscale{
-            filter: grayscale(100%);
-            transition: .8s;
+        .drop-shadow{
+            box-shadow: 0 -1px 10px #333;
+            transition: 0.4s;
         }
-        .img-grayscale:hover{
-            filter: grayscale(0%);
-            transition: .8s;
-            /*scale: 1.05;*/
+
+        .header-extra-space{
+            margin-top: 160px;
         }
+
+        @media screen and (max-width: 991px) {
+            .fs-2-5-rem{
+                font-size: 1.2rem !important;
+            }
+
+            .w-15-rem{
+                width: 8rem !important;
+            }
+
+            .header-extra-space{
+                margin-top: 70px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .fs-2-5-rem{
+                font-size: 1rem !important;
+            }
+
+            .fs-1-rem{
+                font-size: .8rem !important;
+            }
+
+            .w-15-rem{
+                width: 6rem !important;
+            }
+
+            .header-extra-space{
+                margin-top: 35px;
+            }
+        }
+
     </style>
 </head>
 <body>
 <div class="page-wrapper">
     <div class="brand_wrap">
-        <img
-            src="https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/6848c70609210c8d01d82882_logo-white.svg"
-            loading="lazy"
-            alt="logo"
-            class="brand_logo"
-        /><img
-            src="https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/68645cb339a0d03e31142f00_mask.png"
-            loading="lazy"
-            sizes="100vw"
-            srcset="
-                        https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/68645cb339a0d03e31142f00_mask-p-500.png   500w,
-                        https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/68645cb339a0d03e31142f00_mask-p-800.png   800w,
-                        https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/68645cb339a0d03e31142f00_mask-p-1080.png 1080w,
-                        https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/68645cb339a0d03e31142f00_mask-p-1600.png 1600w,
-                        https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/68645cb339a0d03e31142f00_mask.png        1918w
-                    "
-            alt=""
-            class="brand_lines"
-        />
+        <img src="{{ asset('assets/common/images/media-passion-logo.png') }}" loading="lazy" alt="logo" class="brand_logo"/>
     </div>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="padding-global is-small">
             <div class="navbar_component">
                 <div class="navbar_content">
                     <div class="navbar_brand">
-                        <a href="{{ url('/') }}" aria-current="page" class="navbar_logo-wrap w-inline-block w--current"><img src="{{ asset('assets/common/images/media-passion-logo.png') }}" loading="lazy" alt="" class="navbar_logo w-5-rem" /></a>
+                        <a href="{{ url('/') }}" aria-current="page" class="navbar_logo-wrap w-inline-block w--current"><img src="{{ asset('assets/common/images/media-passion-logo.png') }}" loading="lazy" alt="" class="navbar_logo w-15-rem" /></a>
                     </div>
                     <div class="navbar_links-menu">
                         <div class="menu_component">
@@ -81,7 +100,7 @@
                                 <div class="hamburger_line _2"></div>
                                 <div class="hamburger_line _2"></div>
                             </div>
-                            <div class="navbar_creative-text fs-3-rem">Your Brand. Our Passion.</div>
+                            <div class="navbar_creative-text fs-2-5-rem">Your Brand. Our Passion.</div>
                             <div class="menu">
                                 <div class="menu_in">
                                     <div class="menu_content">
@@ -219,7 +238,7 @@
                 <div class="home-header_headings" style="margin-bottom: 0px;">
                 </div>
             </div>
-            <div class="spacer-small"></div>
+            <div class="spacer-small header-extra-space"></div>
             <div class="home-header_component">
                 <div class="home-header_content">
                     <div data-poster-url="{{ asset('assets/common/images/cover.png') }}" class="home-header_video w-background-video w-background-video-atom" >
@@ -289,54 +308,6 @@
                         </div>
                     </div>
                     <div class="spacer-huge"></div>
-                    <div class="padding-global is-tiny tablet-bigger">
-                        <div class="home-about_component">
-                            <div role="listitem" class="work-list_item w-dyn-item">
-                                <div data-w-id="488e7777-71b2-7e36-4789-2206a7bd01df" class="work-list_block">
-                                    <a aria-label="link to work page" data-w-id="488e7777-71b2-7e36-4789-2206a7bd01e0" href="javascript:void(0);" class="work-list_link img-grayscale">
-                                        <img loading="eager" src="{{ asset('assets/common/images/projects/img-01.jpg') }}" alt="" class="work-list_img" />
-                                        <div class="work-list_name">
-                                            <div class="work-list_dot"></div>
-                                            <h3 class="work-list_title">Branding</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div role="listitem" class="work-list_item w-dyn-item">
-                                <div data-w-id="488e7777-71b2-7e36-4789-2206a7bd01df" class="work-list_block">
-                                    <a aria-label="link to work page" data-w-id="488e7777-71b2-7e36-4789-2206a7bd01e0" href="javascript:void(0);" class="work-list_link img-grayscale">
-                                        <img loading="eager" src="{{ asset('assets/common/images/projects/img-02.jpg') }}" alt="" class="work-list_img" />
-                                        <div class="work-list_name">
-                                            <div class="work-list_dot"></div>
-                                            <h3 class="work-list_title">Campaigns</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div role="listitem" class="work-list_item w-dyn-item">
-                                <div data-w-id="488e7777-71b2-7e36-4789-2206a7bd01df" class="work-list_block">
-                                    <a aria-label="link to work page" data-w-id="488e7777-71b2-7e36-4789-2206a7bd01e0" href="javascript:void(0);" class="work-list_link img-grayscale">
-                                        <img loading="eager" src="{{ asset('assets/common/images/projects/img-03.jpg') }}" alt="" class="work-list_img" />
-                                        <div class="work-list_name">
-                                            <div class="work-list_dot"></div>
-                                            <h3 class="work-list_title">Animation</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div role="listitem" class="work-list_item w-dyn-item">
-                                <div data-w-id="488e7777-71b2-7e36-4789-2206a7bd01df" class="work-list_block">
-                                    <a aria-label="link to work page" data-w-id="488e7777-71b2-7e36-4789-2206a7bd01e0" href="javascript:void(0);" class="work-list_link img-grayscale">
-                                        <img loading="eager" src="{{ asset('assets/common/images/projects/img-04.jpg') }}" alt="" class="work-list_img" />
-                                        <div class="work-list_name">
-                                            <div class="work-list_dot"></div>
-                                            <h3 class="work-list_title">Branding</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div data-w-id="df95053b-751c-33b6-14d2-a4763aca7f98" class="hover_wrap">
                         <div data-w-id="df95053b-751c-33b6-14d2-a4763aca7f99" class="hover_pill">
                             <div data-w-id="df95053b-751c-33b6-14d2-a4763aca7f9a" class="hover_text-wrap">
@@ -346,9 +317,57 @@
                             </div>
                         </div>
                     </div>
+                    <div class="work-list_wrapper-v1 w-dyn-list">
+                        <div role="list" class="work-list_list w-dyn-items">
+                            <div role="listitem" class="work-list_item w-dyn-item">
+                                <div data-w-id="488e7777-71b2-7e36-4789-2206a7bd01df" class="work-list_block">
+                                    <a aria-label="link to work page" data-w-id="488e7777-71b2-7e36-4789-2206a7bd01e0" href="{{ url('/') }}" class="work-list_link w-inline-block">
+                                        <img loading="eager" src="{{ asset('/assets/common/images/projects/img-01.jpg') }}" alt="" class="work-list_img img-grayscale"/>
+                                        <div class="work-list_name">
+                                            <div class="work-list_dot"></div>
+                                            <h3 class="work-list_title">Bronx</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div role="listitem" class="work-list_item w-dyn-item">
+                                <div data-w-id="488e7777-71b2-7e36-4789-2206a7bd01df" class="work-list_block">
+                                    <a aria-label="link to work page" data-w-id="488e7777-71b2-7e36-4789-2206a7bd01e0" href="{{ url('/') }}" class="work-list_link w-inline-block">
+                                        <img loading="eager" src="{{ asset('/assets/common/images/projects/img-02.jpg') }}" alt="" class="work-list_img img-grayscale"/>
+                                        <div class="work-list_name">
+                                            <div class="work-list_dot"></div>
+                                            <h3 class="work-list_title">Nexora</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div role="listitem" class="work-list_item w-dyn-item">
+                                <div data-w-id="488e7777-71b2-7e36-4789-2206a7bd01df" class="work-list_block">
+                                    <a aria-label="link to work page" data-w-id="488e7777-71b2-7e36-4789-2206a7bd01e0" href="{{ url('/') }}" class="work-list_link w-inline-block">
+                                        <img loading="eager" src="{{ asset('/assets/common/images/projects/img-03.jpg') }}" alt="" class="work-list_img img-grayscale"/>
+                                        <div class="work-list_name">
+                                            <div class="work-list_dot"></div>
+                                            <h3 class="work-list_title">Carlo</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div role="listitem" class="work-list_item w-dyn-item">
+                                <div data-w-id="488e7777-71b2-7e36-4789-2206a7bd01df" class="work-list_block">
+                                    <a aria-label="link to work page" data-w-id="488e7777-71b2-7e36-4789-2206a7bd01e0" href="{{ url('/') }}" class="work-list_link w-inline-block">
+                                        <img loading="eager" src="{{ asset('/assets/common/images/projects/img-04.jpg') }}" alt="" class="work-list_img img-grayscale"/>
+                                        <div class="work-list_name">
+                                            <div class="work-list_dot"></div>
+                                            <h3 class="work-list_title">Carlo</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="spacer-large"></div>
                     <div data-w-id="86b9f3af-cb4f-5a69-3de4-8d0df7f0b23e" class="fade-in">
-                        <a href="javascript:void(0);" data-wf--button--variant="black" data-w-id="059e00b0-f64e-1901-eae8-f1971aea4566" class="button-secondary w-variant-f874b9ba-24b5-50ff-0733-53dd5363b8cf w-inline-block" >
+                        <a href="{{ url('/projects') }}" data-wf--button--variant="black" data-w-id="059e00b0-f64e-1901-eae8-f1971aea4566" class="button-secondary w-variant-f874b9ba-24b5-50ff-0733-53dd5363b8cf w-inline-block">
                             <div class="button_texts">
                                 <div class="button_text _1">View all projects</div>
                                 <div class="button_text _2">View all projects</div>
@@ -356,8 +375,7 @@
                             <div class="button-line_space blue-dark-36"></div>
                             <div class="button-line_dot blue-dark-37">
                                 <div class="button_dot"></div>
-                                <div class="button_dot-scale"></div>
-                            </div>
+                                <div class="button_dot-scale"></div></div>
                         </a>
                     </div>
                 </div>
@@ -1357,7 +1375,32 @@
     requestAnimationFrame(raf);
 </script>
 <!-- Mouse trail CTA animation powered by GSAP -->
+
 <script>
+
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            $('.navbar').addClass('drop-shadow');
+
+            $('.navbar_logo').removeClass('w-15-rem');
+            $('.navbar_logo').addClass('w-3-rem');
+
+            $('.navbar_creative-text').removeClass('fs-2-5-rem');
+            $('.navbar_creative-text').addClass('fs-1-rem');
+
+        } else {
+            $('.navbar').removeClass('drop-shadow');
+
+            $('.navbar_logo').removeClass('w-3-rem');
+            $('.navbar_logo').addClass('w-15-rem');
+
+            $('.navbar_creative-text').removeClass('fs-1-rem');
+            $('.navbar_creative-text').addClass('fs-2-5-rem');
+
+        }
+    }
+
     $(".section_cta").each(function () {
         // Select key elements inside each CTA section
         let visualWrap = $(this).find(".interaction_visual_wrap"); // Container where the image clones will be animated
