@@ -1,10 +1,5 @@
 <!doctype html>
-<html
-    data-wf-domain="alture-template.webflow.io"
-    data-wf-page="6840876d4d1ed0e8e2a330fc"
-    data-wf-site="6840876d4d1ed0e8e2a330b9"
-    lang="en"
->
+<html lang="en">
 <head>
     @include('partials.frontend.head')
 
