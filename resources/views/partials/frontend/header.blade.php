@@ -70,33 +70,6 @@
                                     </div>
                                     <div class="menu_actions">
                                         <div class="menu_social-wrap">
-                                            <div class="menu_buttons">
-                                                <a
-                                                    href=""
-                                                    data-wf--button--variant="grey"
-                                                    data-w-id="059e00b0-f64e-1901-eae8-f1971aea4566"
-                                                    class="button-secondary w-inline-block"
-                                                ><div class="button_texts">
-                                                        <div class="button_text _1">Buy template</div>
-                                                        <div class="button_text _2">Buy template</div>
-                                                    </div>
-                                                    <div class="button-line_space blue-dark-36"></div>
-                                                    <div class="button-line_dot blue-dark-37">
-                                                        <div class="button_dot"></div>
-                                                        <div class="button_dot-scale"></div></div>
-                                                </a>
-                                                <a href="" data-wf--button--variant="grey" data-w-id="059e00b0-f64e-1901-eae8-f1971aea4566" target="_blank" class="button-secondary w-inline-block" >
-                                                    <div class="button_texts">
-                                                        <div class="button_text _1">More templates</div>
-                                                        <div class="button_text _2">More templates</div>
-                                                    </div>
-                                                    <div class="button-line_space blue-dark-36"></div>
-                                                    <div class="button-line_dot blue-dark-37">
-                                                        <div class="button_dot"></div>
-                                                        <div class="button_dot-scale"></div>
-                                                    </div>
-                                                </a>
-                                            </div>
                                             <div class="menu_social">
                                                 <a href="https://instagram.com" target="_blank" class="menu_social-link w-inline-block">
                                                     <img loading="lazy" src="https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/68642b559d94bcc3773fc317_social-insta.svg" alt="" class="menu_social-icon" />
@@ -108,17 +81,6 @@
                                                     <img loading="lazy" src="https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9/686464e5c7256ddd81c074ee_dribble.svg" alt="" class="menu_social-icon"/>
                                                 </a>
                                             </div>
-                                        </div>
-
-                                        <div class="menu_legal">
-                                            <a href="" data-w-id="08715bc4-c4b7-73ba-45ba-b2d079cf51c2" class="menu_legal-link w-inline-block">
-                                                <div class="menu_legal-text">Privacy Policy</div>
-                                                <div class="menu_legal-line grey"></div>
-                                            </a>
-                                            <a href="" data-w-id="08715bc4-c4b7-73ba-45ba-b2d079cf51c2" class="menu_legal-link w-inline-block">
-                                                <div class="menu_legal-text">Terms of use</div>
-                                                <div class="menu_legal-line grey"></div>
-                                            </a>
                                         </div>
                                     </div>
                                     <div data-w-id="5fdd110c-b4dc-4c3b-f311-33bd343ddaa2" class="menu_close">

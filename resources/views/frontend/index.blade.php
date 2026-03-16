@@ -895,9 +895,13 @@ $pageId = '8860425h4d1ed0e9e2a410fk';
                     <div class="cta_content">
                         <div data-w-id="a96576e7-0ca7-fa5e-89ee-4643797a680f" class="text-align-center">
                             <div class="text-color-white">
-                                <h2 class="heading-style-h1 font-weight-medium">
-                                    Start your project with Alture®
+                                <h2 class="heading-style-h4 font-weight-mediumm" style="margin-bottom: 20px;">
+                                    Start your project with
                                 </h2>
+                                <h2 class="heading-style-h3 font-weight-medium">
+                                    Media Passion®
+                                </h2>
+
                             </div>
                         </div>
                         <div class="spacer-large"></div>
@@ -920,6 +924,13 @@ $pageId = '8860425h4d1ed0e9e2a410fk';
                     </div>
                 </div>
                 <div class="padding-section-medium"></div>
+                <div class="interaction_visual_wrap">
+                    <div class="interaction_template">
+                        <div class="interaction_img_wrap">
+                            <img alt="" src="{{ asset('assets/common/images/media-passion-logo.png') }}" class="interaction_img" />
+                        </div>
+                    </div>
+                </div>
 
                 <div class="interaction_cms_wrap">
                     <div class="interaction_cms_list">
