@@ -1,3 +1,6 @@
+@php
+$pageId = '8860425h4d1ed0e9e2a410fk';
+@endphp
 @extends('layouts.frontend')
 
 @section('content')

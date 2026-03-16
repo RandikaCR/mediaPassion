@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html data-wf-page="{{ $pageId }}" lang="en">
 <head>
     @include('partials.frontend.head')
 </head>
