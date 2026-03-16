@@ -33,3 +33,76 @@
 <!-- Lennis script and styles -->
 <script src="https://unpkg.com/lenis@1.3.4/dist/lenis.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.4/dist/lenis.css" />
+
+<style type="text/css">
+    .home-header_content{
+        background: url("{{ asset('assets/common/images/cover.png') }}") center center /cover;
+    }
+
+    .fs-1-rem{
+        font-size: 1rem !important;
+        transition: 0.8s;
+    }
+
+    .fs-2-5-rem{
+        font-size: 2.5rem !important;
+        transition: 0.8s;
+    }
+
+    .w-3-rem{
+        width: 3rem !important;
+        transition: 0.8s;
+    }
+
+    .w-5-rem{
+        width: 3rem !important;
+        transition: 0.8s;
+    }
+
+    .w-15-rem{
+        width: 15rem !important;
+        transition: 0.8s;
+    }
+
+    .drop-shadow{
+        box-shadow: 0 -1px 10px #333;
+        transition: 0.8s;
+    }
+
+    .header-extra-space{
+        margin-top: 160px;
+    }
+
+    @media screen and (max-width: 991px) {
+        .fs-2-5-rem{
+            font-size: 1.2rem !important;
+        }
+
+        .w-15-rem{
+            width: 8rem !important;
+        }
+
+        .header-extra-space{
+            margin-top: 70px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .fs-2-5-rem{
+            font-size: 1rem !important;
+        }
+
+        .fs-1-rem{
+            font-size: .8rem !important;
+        }
+
+        .w-15-rem{
+            width: 6rem !important;
+        }
+
+        .header-extra-space{
+            margin-top: 35px;
+        }
+    }
+
+</style>
