@@ -3,6 +3,10 @@ $pageId = '8860425h4d1ed0e9e2a410fk';
 @endphp
 @extends('layouts.frontend')
 
+@section('page_title')
+    Welcome
+@endsection
+
 @section('content')
     <section class="section_home-header">
         <div class="padding-section-small is-mobile-medium"></div>
